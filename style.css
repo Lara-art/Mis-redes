@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-violet: #64326A;
+    --color-red-pink: #F75888;
+    --color-pink: #F687CE;
+    --color-green: #03CAC7;
+    --color-yellow: #E7B67A;
+    --color-bone: #FCEADE;
+    --radius: 10px;
+    --circle: 50px;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+body{
+    height: 100vh;
+    text-align: center;
+    place-content: center;
+    max-width: 1440px;
+    margin: auto;
+    padding: 2rem;
+    background-color: var(--color-violet);
+    color: var(--color-bone);
+    font-family: "Nerko One", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-bone);
+    font-family: "Nerko One", sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--color-red-pink);
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: 300;
+    border: 0px solid;
+    color: var(--color-bone);
+    border-radius: var(--radius);
+    background-color: var(--color-pink);
+
+    &:hover {
+        background-color: var(--color-green);
+        color: var(--color-bone);
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+    margin: auto;
+    padding: 40px;
+    border-radius: var(--radius);
+    background-color: var(--color-yellow);
+
+    & img {
+        width: 90px;
+        border-radius: var(--circle);
+    }
+}
+
+.my08 {
+    margin-top: 08px;
+    margin-bottom: 08px;
+}
