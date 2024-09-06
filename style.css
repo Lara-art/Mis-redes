@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-:root{
-    --color-violet: #64326A;
-    --color-red-pink: #F75888;
-    --color-pink: #F687CE;
-    --color-green: #03CAC7;
+:root {
     --color-yellow: #E7B67A;
     --color-bone: #FCEADE;
+    --color-primary: #201E43;
+    --color-secundary: #134B70;
+    --color-tertiary: #508C9B;
     --radius: 10px;
     --circle: 50px;
 }
@@ -23,19 +22,19 @@ img {
     margin: auto;
 }
 
-body{
+body {
     height: 100vh;
     text-align: center;
     place-content: center;
     max-width: 1440px;
     margin: auto;
     padding: 2rem;
-    background-color: var(--color-violet);
+    background-color: var(--color-primary);
     color: var(--color-bone);
     font-family: "Nerko One", sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
     color: var(--color-bone);
     font-family: "Nerko One", sans-serif;
@@ -43,17 +42,17 @@ a{
 }
 
 h1 {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
 h2 {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 24px;
-    color: var(--color-red-pink);
-    margin-bottom: 20px;
+    color: var(--color-bone);
+    margin-bottom: 10px;
 }
 
 button {
@@ -65,11 +64,11 @@ button {
     border: 0px solid;
     color: var(--color-bone);
     border-radius: var(--radius);
-    background-color: var(--color-pink);
+    background-color: var(--color-tertiary);
 
     &:hover {
-        background-color: var(--color-green);
-        color: var(--color-bone);
+        background-color: var(--color-yellow);
+        color: var(--color-primary);
     }
 }
 
@@ -80,10 +79,10 @@ button {
     margin: auto;
     padding: 40px;
     border-radius: var(--radius);
-    background-color: var(--color-yellow);
+    background-color: var(--color-secundary);
 
     & img {
-        width: 90px;
+        width: 100px;
         border-radius: var(--circle);
     }
 }
