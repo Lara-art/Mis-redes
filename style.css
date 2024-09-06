@@ -82,7 +82,7 @@ button {
     background-color: var(--color-secundary);
 
     & img {
-        width: 100px;
+        max-width: 100px;
         border-radius: var(--circle);
     }
 }
