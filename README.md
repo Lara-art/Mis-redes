@@ -8,8 +8,8 @@
 
 <table>
   <tr>
-    <td style="width: 75%;"><img src="https://github.com/Lara-art/Mis-redes/images/preview/Desktop.PNG" alt="Vista de Escritorio" style="width: 100%;"/></td>
-    <td style="width: 25%;"><img src="https://github.com/Lara-art/Mis-redes/images/preview/Mobile.PNG"  alt="Vista Móvil" style="width: 100%;"/></td>
+    <td style="width: 75%;"><img src="https://github.com/Lara-art/Mis-redes/blob/main/images/preview/Desktop.PNG" alt="Vista de Escritorio" style="width: 100%;"/></td>
+    <td style="width: 25%;"><img src="https://github.com/Lara-art/Mis-redes/blob/main/images/preview/Mobile.PNG"  alt="Vista Móvil" style="width: 100%;"/></td>
   </tr>
 </table>
 
