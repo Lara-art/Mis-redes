@@ -24,11 +24,6 @@
   <li><a href="https://github.com/Lara-art" alt="Github Larartgc" title="Github Larartgc">Mi Github</a></li>
 </ul>
 
-<p dir="auto">
-<animated-image data-catalyst="" style="float: right; width: 400px;">
-  <img align="right" height="240" alt="GIF" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTM1ZjkyZ2kwcDM1bjl1b2hkcjJrcDR2OGdxcXJnaXF3eHhzbzZ6NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT8qB1SzJ7UQ4t6izu/giphy.gif" style="max-width: 100%; display: inline-block; margin: 10px;" alt="Programando con Lara" title="Programando con Lara">
-</animated-image>
-
 <h3>🌵 Sobre mi</h3>
 
 <ul dir="auto">
